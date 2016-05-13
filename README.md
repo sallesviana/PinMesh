@@ -3,22 +3,23 @@ PinMesh is an exact and efficient parallel algorithm for preprocess a polyhedral
 
 
 
----------------------------------------------------------------------
-Dataset                   Source                Creator 
-Horse                   Georgia Tech
-Armadillo                 Stanford           
-Hand                    Georgia Tech 
-Pierrot                  AIM@SHAPE         Frank_terHaar
-Chinese dragon           AIM@SHAPE         Laurent_Saboret
-Rolling stage            AIM@SHAPE         INRIA
-Buddha                   AIM@SHAPE         VCG-ISTI
-Ramesses                 AIM@SHAPE         Marco_Attene
-Elephant                 AIM@SHAPE         ISTI
-Neptune                  AIM@SHAPE         Lauren_Saboret
-6 Materials           
-12 Materials
-24 Materials Georgia Tech
----------------------------------------------------------------------
+
+Dataset          |          Source       |        Creator 
+-----------------|-----------------------|----------------------------
+Horse            |       Georgia Tech    |
+Armadillo        |         Stanford      |     
+Hand             |       Georgia Tech    |
+Pierrot          |        AIM@SHAPE      |   Frank_terHaar
+Chinese dragon   |        AIM@SHAPE      |   Laurent_Saboret
+Rolling stage    |        AIM@SHAPE      |   INRIA
+Buddha           |        AIM@SHAPE      |   VCG-ISTI
+Ramesses         |        AIM@SHAPE      |   Marco_Attene
+Elephant         |        AIM@SHAPE      |   ISTI
+Neptune          |        AIM@SHAPE      |   Lauren_Saboret
+6 Materials      |                       |
+12 Materials     |                       |
+24 Materials     |                       |
+
 
 
 
