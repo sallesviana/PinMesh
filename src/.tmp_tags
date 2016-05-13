@@ -1,0 +1,156 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASSERTA	common2.h	255;"	d
+ASSERTC	common2.h	258;"	d
+ASSERTE	common2.h	261;"	d
+ASSERTT	common2.h	264;"	d
+Area	3d_objects.cpp	/^typedef double Area;$/;"	t	file:
+CF	continuedFractions.h	/^typedef vector<big_int> CF;  \/\/ continued fraction: a0 + 1\/ (a1 + 1\/ (a2 + ....$/;"	t
+CellNo	3d_objects.cpp	/^typedef array<int,3> CellNo;\/\/Identifier for a cell$/;"	t	file:
+Delta_CPU_Time	common2.h	/^double Delta_CPU_Time()  {$/;"	f
+Delta_Clock_Time	common2.h	/^double Delta_Clock_Time()  {$/;"	f
+EXPANDANDSTRING	common2.h	75;"	d
+EXPANDANDSTRING2	common2.h	76;"	d
+FOR	common2.h	133;"	d
+FORR	common2.h	136;"	d
+NEWA	common2.h	108;"	d
+NEWV	common2.h	111;"	d
+NEWVR	common2.h	123;"	d
+NEWVS	common2.h	114;"	d
+NEWVVS	common2.h	117;"	d
+NEWVVSS	common2.h	120;"	d
+Nested3DGrid	nested3DGrid.cpp	/^	Nested3DGrid() {$/;"	f	struct:Nested3DGrid
+Nested3DGrid	nested3DGrid.cpp	/^Nested3DGrid::Nested3DGrid(const vector<Triangle *> trianglesInsert[2], const vector<Point> vertices[2], const int gridSize,const Point &p0, const Point &p1) {$/;"	f	class:Nested3DGrid
+Nested3DGrid	nested3DGrid.cpp	/^struct Nested3DGrid {$/;"	s	file:
+Nested3DGridCell	nested3DGrid.cpp	/^  Nested3DGridCell() : childGrid(NULL) {  };$/;"	f	class:Nested3DGridCell
+Nested3DGridCell	nested3DGrid.cpp	/^class Nested3DGridCell {   \/\/ one grid cell of one map$/;"	c	file:
+OUTSIDE_OBJECT	3d_objects.cpp	/^const ObjectId OUTSIDE_OBJECT = 0;$/;"	v
+ObjectId	3d_objects.cpp	/^typedef int ObjectId;$/;"	t	file:
+PRINT	common2.h	92;"	d
+PRINTC	common2.h	95;"	d
+PRINTCT	common2.h	100;"	d
+PRINTN	common2.h	96;"	d
+PRINTT	common2.h	99;"	d
+Point	3d_objects.cpp	/^typedef array<VertCoord,3> Point;$/;"	t	file:
+Print_CPU_Time	common2.h	/^void Print_CPU_Time(string s)  {  \/\/ Print CPU (user+system) time since start of process.$/;"	f
+Print_Current_Process_Memory_Used	common2.h	/^void Print_Current_Process_Memory_Used() {$/;"	f
+Print_Time	common2.h	/^double Print_Time(const string &msg)  {$/;"	f
+Process_CPU_Time	common2.h	/^double Process_CPU_Time()  {  \/\/ Return CPU(user+system) time since start of process.$/;"	f
+TIME	common2.h	154;"	d
+TRY1	common2.h	273;"	d
+TRY2	common2.h	270;"	d
+Triangle	3d_objects.cpp	/^	Triangle() {}$/;"	f	class:Triangle
+Triangle	3d_objects.cpp	/^	Triangle(VertexId p0, VertexId p1, VertexId p2,ObjectId above, ObjectId below, vector<Point> &vertices) {$/;"	f	class:Triangle
+Triangle	3d_objects.cpp	/^class Triangle {$/;"	c	file:
+USE_BOOST	rationals.h	6;"	d
+USE_GMPXX	rationals.h	5;"	d
+VertCoord	3d_objects.cpp	/^typedef rational VertCoord;$/;"	t	file:
+VertexId	3d_objects.cpp	/^typedef int VertexId;$/;"	t	file:
+__COMMON_H__	common2.h	288;"	d
+above	3d_objects.cpp	/^	ObjectId above, below; \/\/ids of the objects above and below the triangle (considering the right hand rule)$/;"	m	class:Triangle	file:
+accum_max	3d_overlay.cpp	/^void accum_max(T &maxsofar, const U x) {$/;"	f
+accum_max	3d_overlay_locate_working.cpp	/^void accum_max(T &maxsofar, const U x) {$/;"	f
+accum_min	3d_overlay.cpp	/^void accum_min(T &minsofar, const T x) {$/;"	f
+accum_min	3d_overlay_locate_working.cpp	/^void accum_min(T &minsofar, const T x) {$/;"	f
+bBox	3d_overlay.cpp	/^Point bBox[2][2] ;\/\/bounding box of each layer (each boundingbox has two vertices)$/;"	v
+bBox	3d_overlay_locate_working.cpp	/^Point bBox[2][2] ;\/\/bounding box of each layer (each boundingbox has two vertices)$/;"	v
+below	3d_objects.cpp	/^	ObjectId above, below; \/\/ids of the objects above and below the triangle (considering the right hand rule)$/;"	m	class:Triangle	file:
+big_int	rationals.h	/^typedef  cpp_int big_int;$/;"	t
+big_int	rationals.h	/^typedef  mpz_class big_int;$/;"	t
+boundingBox	3d_objects.cpp	/^	VertexId boundingBox[2][3];$/;"	m	class:Triangle	file:
+boundingBoxLayers	3d_overlay.cpp	/^Point boundingBoxLayers[2]; \/\/bounding box considering both layers togetter$/;"	v
+boundingBoxLayers	3d_overlay_locate_working.cpp	/^Point boundingBoxLayers[2]; \/\/bounding box considering both layers togetter$/;"	v
+box	nested3DGrid.cpp	/^	Point box[2]; \/\/3d box representing this uniform grid...$/;"	m	struct:Nested3DGrid	file:
+castDoubleWrap	rationals.h	/^inline const double castDoubleWrap(const rational &q) {$/;"	f
+castIntWrap	rationals.h	/^inline const int castIntWrap(const big_int &z) {$/;"	f
+cellScale	nested3DGrid.cpp	/^	VertCoord cellScale;$/;"	m	struct:Nested3DGrid	file:
+cellWidth	nested3DGrid.cpp	/^	VertCoord cellWidth;$/;"	m	struct:Nested3DGrid	file:
+cell_from_coord	nested3DGrid.cpp	/^	CellNo cell_from_coord(const Point &p, VertCoord &tempVar,big_int tempVarsInt[]) const{$/;"	f	struct:Nested3DGrid
+childGrid	nested3DGrid.cpp	/^  Nested3DGrid *childGrid;$/;"	m	class:Nested3DGridCell	file:
+computeNumIntersections	3d_overlay.cpp	/^unsigned long long  computeNumIntersections(const Nested3DGrid *uniformGrid) {$/;"	f
+computeNumIntersections	3d_overlay_locate_working.cpp	/^unsigned long long  computeNumIntersections(const Nested3DGrid *uniformGrid) {$/;"	f
+computeNumberPairsTriangles	nested3DGrid.cpp	/^unsigned long long Nested3DGrid::computeNumberPairsTriangles(){$/;"	f	class:Nested3DGrid
+computeNumberPairsTriangles	nested3DGrid.cpp	/^unsigned long long Nested3DGridCell::computeNumberPairsTriangles(){$/;"	f	class:Nested3DGridCell
+computeObjectWherePointIs	3d_overlay.cpp	/^ObjectId computeObjectWherePointIs(Point &p,int gx,int gy, int gz,int imapObject, const Nested3DGrid *uniformGrid, VertCoord tempVertCoords[],VertCoord tempVertCoordMatrix[2][3], big_int tempBigInts[]) {$/;"	f
+computeObjectWherePointIs	3d_overlay_locate_working.cpp	/^ObjectId computeObjectWherePointIs(Point &p,int gx,int gy, int gz,int imapObject, const Nested3DGrid *uniformGrid) {$/;"	f
+convertTimeMsecs	3d_overlay.cpp	/^double convertTimeMsecs(const timespec &t){$/;"	f
+convertTimeMsecs	3d_overlay_locate_working.cpp	/^double convertTimeMsecs(const timespec &t){$/;"	f
+convertToInt	rationals.h	/^inline const int convertToInt(const rational &q, big_int tempVars[]) {$/;"	f
+denominatorWrap	rationals.h	/^inline const big_int denominatorWrap(const rational &q) {$/;"	f
+die	common2.h	/^void die(const std::string msg) {                   \/\/ die$/;"	f
+die2	common2.h	/^void die2(const std::string msg, const int i) {$/;"	f
+diff	3d_overlay.cpp	/^timespec diff(timespec start, timespec end)$/;"	f
+diff	3d_overlay_locate_working.cpp	/^timespec diff(timespec start, timespec end)$/;"	f
+divide_qrWrap	rationals.h	/^inline void divide_qrWrap(const big_int &n,const big_int &d, big_int &i,big_int &r) {$/;"	f
+edges	3d_over
+edges	3d_overlay.cpp	/^vector< pair< array<VertCoord,3>,array<VertCoord,3> > > edges;$/;"	v
+eval_cf	continuedFractions.h	/^rational eval_cf(const CF f) {$/;"	f
+foreach	common2.h	130;"	d
+gen_cf	continuedFractions.h	/^vector<big_int> gen_cf(const rational x, const int n) {$/;"	f
+getHeigthAbovePoint	3d_overlay.cpp	/^void getHeigthAbovePoint(VertCoord &heightAbovePoint,const Point &p0,const Point &p1,const Point &p2,const Point &p) {$/;"	f
+getHeigthAbovePoint	3d_overlay.cpp	/^void getHeigthAbovePoint(VertCoord &heightAbovePoint,const Point &p0,const Point &p1,const Point &p2,const Point &p, VertCoord vec[2][3],VertCoord *tempVertCoords) {$/;"	f
+getHeigthAbovePoint	3d_overlay_locate_working.cpp	/^void getHeigthAbovePoint(VertCoord &heightAbovePoint,const Point &p0,const Point &p1,const Point &p2,const Point &p) {$/;"	f
+getPairsTrianglesToTest	3d_overlay.cpp	/^void getPairsTrianglesToTest(const Nested3DGrid *uniformGrid,vector<pair<Triangle *,Triangle *> > &pairsTrianglesToProcess) {$/;"	f
+getPairsTrianglesToTest	3d_overlay_locate_working.cpp	/^void getPairsTrianglesToTest(const Nested3DGrid *uniformGrid,vector<pair<Triangle *,Triangle *> > &pairsTrianglesToProcess) {$/;"	f
+gridCells	nested3DGrid.cpp	/^	vector<vector<vector<Nested3DGridCell> > > gridCells;$/;"	m	struct:Nested3DGrid	file:
+gridSize	nested3DGrid.cpp	/^	int gridSize;$/;"	m	struct:Nested3DGrid	file:
+hasChild	nested3DGrid.cpp	/^  bool hasChild() const {$/;"	f	class:Nested3DGridCell
+initSeq	nested3DGrid.cpp	/^void Nested3DGrid::initSeq(const vector<Triangle *> objectsInsert[2], const vector<Point> vertices[2], const int gridSize, const Point &p0, const Point &p1) {$/;"	f	class:Nested3DGrid
+insertTriangleInGrid	nested3DGrid.cpp	/^void Nested3DGrid::insertTriangleInGrid(Triangle *t,const vector<Point> vertices[2],int imap,int xCellmin,int yCellmin,int zCellmin,int xCellmax,int yCellmax, int zCellmax) {$/;"	f	class:Nested3DGrid
+locateVerticesOfOneObjectInTheOther	3d_overlay.cpp	/^void locateVerticesOfOneObjectInTheOther(const Nested3DGrid *uniformGrid) {$/;"	f
+locateVerticesOfOneObjectInTheOther	3d_overlay_locate_working.cpp	/^void locateVerticesOfOneObjectInTheOther(const Nested3DGrid *uniformGrid) {$/;"	f
+main	3d_overlay.cpp	/^int main(int argc, char **argv) {$/;"	f
+main	3d_overlay_locate_working.cpp	/^int main(int argc, char **argv) {$/;"	f
+make_grid	nested3DGrid.cpp	/^void Nested3DGrid::make_grid() {$/;"	f	class:Nested3DGrid
+max	3d_overlay.cpp	/^T max(const T a, const T b, const T c, const T d) {$/;"	f
+max	3d_overlay_locate_working.cpp	/^T max(const T a, const T b, const T c, const T d) {$/;"	f
+min	3d_overlay.cpp	/^T min(const T a, const T b, const T c, const T d) {$/;"	f
+min	3d_overlay_locate_working.cpp	/^T min(const T a, const T b, const T c, const T d) {$/;"	f
+numeratorWrap	rationals.h	/^inline const big_int numeratorWrap(const rational &q) {$/;"	f
+operator []	3d_objects.cpp	/^	VertexId& operator[](const int i) { return this->p[i]; }$/;"	f	class:Triangle
+operator []	3d_objects.cpp	/^  const VertexId& operator[](const int i) const { return this->p[i]; }$/;"	f	class:Triangle
+p	3d_objects.cpp	/^	VertexId p[3];$/;"	m	class:Triangle	file:
+pointInTriangleProj	3d_overlay.cpp	/^bool pointInTriangleProj(const Point &p0, const Point &p1, const Point &p2, const Point &p)  {$/;"	f
+pointInTriangleProj	3d_overlay.cpp	/^bool pointInTriangleProj(const Point &p0, const Point &p1, const Point &p2, const Point &p, VertCoord *tempVertCoords)  {$/;"	f
+pointInTriangleProj	3d_overlay_locate_working.cpp	/^bool pointInTriangleProj(const Point &p0, const Point &p1, const Point &p2, const Point &p)  {$/;"	f
+printStats	nested3DGrid.cpp	/^  void printStats() {$/;"	f	struct:Nested3DGrid
+ptime	common2.h	/^ void ptime(const char *const msg) {         \/\/ Write cumulative CPU process time to std::cerr.$/;"	f
+rational	rationals.h	/^typedef  cpp_rational rational;$/;"	t
+rational	rationals.h	/^typedef  mpq_class rational;$/;"	t
+readGTSFile	3d_objects.cpp	/^void readGTSFile(string fileName, vector<Point> &vertices,vector<Triangle> &triangles, Point boundingBox[2]) {$/;"	f
+refineChildGrids	nested3DGrid.cpp	/^void Nested3DGrid::refineChildGrids(const vector<Point> vertices[2], const long long prodThreshold, int sizeNested3DGrid,int maxRefineDepth) {$/;"	f	class:Nested3DGrid
+round	continuedFractions.h	/^void round(rational &a, const rational &d) {  \/\/ Return a simple approx that is$/;"	f
+round_down	continuedFractions.h	/^void round_down(rational &a, const rational &d) {  \/\/ Return a simple approx that is$/;"	f
+round_up	continuedFractions.h	/^void round_up(rational &a, const rational &d) {  \/\/ Return a simple approx that is not$/;"	f
+saveEdges	3d_overlay.cpp	/^void saveEdges(string path) {$/;"	f
+saveEdges	3d_overlay_locate_working.cpp	/^void saveEdges(string path) {$/;"	f
+slightlyMoreThanOne	3d_objects.cpp	14;"	d	file:
+split	continuedFractions.h	/^void split(const rational a, big_int &i, rational &f) {$/;"	f
+sqlen	3d_overlay.cpp	/^T sqlen(const T dx, const T dy) { return square(dx)+square(dy); }$/;"	f
+sqlen	3d_overlay_locate_working.cpp	/^T sqlen(const T dx, const T dy) { return square(dx)+square(dy); }$/;"	f
+square	3d_overlay.cpp	/^T square(const T x) { return x*x; }$/;"	f
+square	3d_overlay_locate_working.cpp	/^T square(const T x) { return x*x; }$/;"	f
+system2	common2.h	/^void system2(const char *s) {   \/\/ stop those 'ignoring return value' warnings$/;"	f
+triangles	3d_overlay.cpp	/^vector<Triangle> triangles[2]; \/\/$/;"	v
+triangles	3d_overlay_locate_working.cpp	/^vector<Triangle> triangles[2]; \/\/$/;"	v
+triangles	nested3DGrid.cpp	/^  vector<Triangle *> triangles[2];  \/\/ triangles in this cell (from each of the two layers)$/;"	m	class:Nested3DGridCell	file:
+uniformGrid	3d_overlay.cpp	/^Nested3DGrid uniformGrid;$/;"	v
+uniformGrid	3d_overlay_locate_working.cpp	/^Nested3DGrid uniformGrid;$/;"	v
+vertices	3d_overlay.cpp	/^vector<Point> vertices[2];$/;"	v
+vertices	3d_overlay_locate_working.cpp	/^vector<Point> vertices[2];$/;"	vlay_locate_working.cpp	/^vector< pair< array<VertCoord,3>,array<VertCoord,3> > > edges;$/;"	v
+watchdog_tv	common2.h	/^struct timeval *watchdog_tv;$/;"	v	typeref:struct:timeval
+watchdog_tz	common2.h	/^struct timezone *watchdog_tz;$/;"	v	typeref:struct:timezone
+x_cell_from_coord	nested3DGrid.cpp	/^	int x_cell_from_coord(const VertCoord &x, VertCoord &tempVar,big_int tempVarsInt[]) const {$/;"	f	struct:Nested3DGrid
+x_coord_from_cell	nested3DGrid.cpp	/^	VertCoord x_coord_from_cell(const int c) const{   \/\/ return the coord of the left edge.$/;"	f	struct:Nested3DGrid
+x_coord_from_cell	nested3DGrid.cpp	/^	VertCoord x_coord_from_cell(const int c, VertCoord &tempVar) const{   \/\/ return the coord of the left edge.$/;"	f	struct:Nested3DGrid
+y_cell_from_coord	nested3DGrid.cpp	/^	int y_cell_from_coord(const VertCoord &y, VertCoord &tempVar,big_int tempVarsInt[]) const{$/;"	f	struct:Nested3DGrid
+y_coord_from_cell	nested3DGrid.cpp	/^	VertCoord y_coord_from_cell(const int c) const{$/;"	f	struct:Nested3DGrid
+y_coord_from_cell	nested3DGrid.cpp	/^	VertCoord y_coord_from_cell(const int c, VertCoord &tempVar) const{$/;"	f	struct:Nested3DGrid
+z_cell_from_coord	nested3DGrid.cpp	/^  int z_cell_from_coord(const VertCoord &z, VertCoord &tempVar,big_int tempVarsInt[]) const{$/;"	f	struct:Nested3DGrid
+z_coord_from_cell	nested3DGrid.cpp	/^  VertCoord z_coord_from_cell(const int c) const{$/;"	f	struct:Nested3DGrid
+z_coord_from_cell	nested3DGrid.cpp	/^  VertCoord z_coord_from_cell(const int c, VertCoord &tempVar) const{$/;"	f	struct:Nested3DGrid
+~Nested3DGridCell	nested3DGrid.cpp	/^  ~Nested3DGridCell() { if (childGrid!=NULL) delete childGrid; }$/;"	f	class:Nested3DGridCell
