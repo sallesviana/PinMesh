@@ -3,6 +3,9 @@ PinMesh is an exact and efficient parallel algorithm for preprocess a polyhedral
 
 
 
+## Datasets
+* Table below presents the source and creator of the original datasets used to created the examples in this repository.
+* The original datasets were cleaned (to ensure they are watertight and do not have topological errors) and converted to the file format used by PinMesh.
 
 Dataset          |          Source       |        Creator 
 -----------------|-----------------------|----------------------------
