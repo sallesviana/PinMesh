@@ -9,6 +9,7 @@ PinMesh is described in the following paper:  Magalhães SVG, et al. PinMesh - F
 
 ## Instructions for the SMI reproducibility stamp committee
 * PinMesh requires g++ 4.8+ and the GMP library 
+* The compiler should support C++11 and Openmp (we use the following compiler flags: -lgmp -lgmpxx -std=c++11 -O3  -fopenmp)
 * After clonning this repository, please run the script smiDownloadDependenciesAndCompile.sh as root (it will try to download the sample data sets, extract them to the current folder, install g++ and the GMP library and, finally, compile PinMesh). This script should be executed in the same folder it was downloaded by git (i.e., in the same folder cotaining PinMesh's source code).
 * If the script does not manage to install the dependencies, please install g++ 4.8 and GMP using your Linux distribution's package manager.
 * PinMesh will be compiled by the script by calling the make utility (since we provide a Makefile, you can also compile PinMesh by simply typing "make").
