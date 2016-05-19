@@ -2,3 +2,4 @@ Paper title: PinMesh -- Fast and exact 3D point location queries using a uniform
 Paper authors: Salles V.G. Magalhães, Marcus V.A. Andrade, W. Randolph Franklin, Wenli Li
 Recommended operating system: Linux 
 
+Instructions for compiling/running PinMesh are provided in the file README.md
