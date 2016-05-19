@@ -18,3 +18,8 @@ echo "---------------------------------------------"
 echo "Compiling PinMesh"
 echo "---------------------------------------------"
 make
+
+echo "---------------------------------------------"
+echo "Adding execution permission for all the shell scripts"
+echo "---------------------------------------------"
+chmod +x *.sh

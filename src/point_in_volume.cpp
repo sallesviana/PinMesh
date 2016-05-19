@@ -91,7 +91,6 @@ timespec diff(timespec start, timespec end)
 
 #include "nested3DGrid.cpp"
 
-#include "tritri_isectline.c"
 
 
 //Each vector represents the vertices of a layer
