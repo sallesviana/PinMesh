@@ -1,0 +1,4 @@
+Paper title: PinMesh -- Fast and exact 3D point location queries using a uniform grid
+Paper authors: Salles V.G. Magalhães, Marcus V.A. Andrade, W. Randolph Franklin, Wenli Li
+Recommended operating system: Linux 
+
