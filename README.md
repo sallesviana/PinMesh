@@ -23,7 +23,7 @@ PinMesh is described in the following paper:  Magalhães SVG, et al. PinMesh - F
 ## Datasets (available at:  )
 * Table below presents the source and creator of the original datasets used to created the examples in this repository.
 * The original datasets were cleaned (to ensure they are watertight and do not have topological errors) and converted to the file format used by PinMesh.
-* The datasets with 6, 12 and 24 materias were created as the union of the 6 largest single-material datasets.
+* The datasets with 6, 12 and 24 materials were created as the union of the 6 largest single-material datasets.
 
 Dataset          |          Source       |        Creator 
 -----------------|-----------------------|----------------------------
