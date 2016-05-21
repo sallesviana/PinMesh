@@ -1,7 +1,7 @@
 echo "---------------------------------------------"
 echo "Downloading sample data set"
 echo "---------------------------------------------"
-wget https://www.dropbox.com/s/2pqggvfhvks29tm/datasets.tar.gz?dl=1 -O datasets.tar.gz
+wget https://www.dropbox.com/s/x5sr65lq0eqjk6l/datasets.tar.gz?dl=1 -O datasets.tar.gz
 
 echo "---------------------------------------------"
 echo "Extracting sample data set"
