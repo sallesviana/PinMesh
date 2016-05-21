@@ -9,12 +9,6 @@ echo "---------------------------------------------"
 tar -xzf datasets.tar.gz
 
 echo "---------------------------------------------"
-echo "Installing g++ (please, run this shell script as root to ensure the dependencies will be installed)"
-echo "---------------------------------------------"
-apt-get install g++4.8
-apt-get install libgmp3-dev
-
-echo "---------------------------------------------"
 echo "Compiling PinMesh"
 echo "---------------------------------------------"
 make
