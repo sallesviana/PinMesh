@@ -1,7 +1,7 @@
 echo "Generating table 2 (PinMesh will run and the results will be displayed below)     ";
 echo "----------------------------------------------------------------------------------";
 echo "----------------------------------------------------------------------------------";
-echo "        Mesh,  Nt(x10^3),     G_2,   T_p(s),  T_q(us)";
+echo "        Mesh,  Nt(x10^3),      G_2,   T_p(s),  T_q(us)";
 
 export OMP_NUM_THREADS=16;
 
