@@ -11,7 +11,7 @@ printRowTable () {
 	secondLevel=$2
    	echo $name | awk  -F "-"  '{printf "%12s,",$1}'
 	cat out.err | grep triangles, | awk '{printf "%11.0f,", $5/(1000.0)}'
-	echo $secondLevel | awk  -F ":"  '{printf "%5d,",$1}'
+	echo $secondLevel | awk  -F ":"  '{printf "%7d^3,",$1}'
 	cat out.err | grep "create and refine" | awk -F ':' '{printf "%f ", $2}' > temp.txt
 	cat out.err | grep "fill grid and compute" | awk -F ':' '{printf "%f\n", $2}' >> temp.txt
 	cat temp.txt | awk  -F " "  '{printf "%9.2f,",$1+$2}'
