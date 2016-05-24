@@ -11,7 +11,7 @@ PinMesh is described in the following paper:  Magalhães SVG, et al. PinMesh - F
 * PinMesh requires g++ 4.8+ and the GMP library 
 * The script smiInstallRequiredSoftwarePackages.sh tries to install g++4.8 and libgmp3-dev packages (if it fails, please try to install these packages by using the operating system's package manager)
 * The compiler should support C++11 and Openmp (we use the following compiler flags: -lgmp -lgmpxx -std=c++11 -O3  -fopenmp)
-* After clonning this repository and installing the dependencies, please run the script smiDownloadDependenciesAndCompile.sh as root (it will try to download the sample data sets, extract them to the current folder and, finally, compile PinMesh). This script should be executed in the same folder it was downloaded by git (i.e., in the same folder cotaining PinMesh's source code).
+* After cloning this repository and installing the dependencies, please run the script smiDownloadDependenciesAndCompile.sh as root (it will try to download the sample data sets, extract them to the current folder and, finally, compile PinMesh). This script should be executed in the same folder it was downloaded by git (i.e., in the same folder cotaining PinMesh's source code).
 * PinMesh will be compiled by the script by calling the make utility (since we provide a Makefile, you can also compile PinMesh by simply typing "make").
 * PinMesh's paper contains two result tables (Tables 2 and 3) and the two charts provided in the paper were generated from the data displayed in Table 2.
 * To generate the data in Table 2, use the shell script "generateTable2.sh" (the results will be displayed in the screen).
